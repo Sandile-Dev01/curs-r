@@ -6,6 +6,7 @@ html,
   padding: 0;
   box-sizing: border-box;
   font-family: "Zilla Slab", serif;
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 0) {
@@ -14,6 +15,25 @@ html,
     color: #ffffff;
     padding: 2rem;
     text-align: center;
+  }
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1rem 0;
+  }
+  span a {
+    padding-left: 7px;
+    color: yellow;
+    transition: all 250ms ease-in-out;
+  }
+  span a:hover {
+    font-style: italic;
+    color: aqua;
+    opacity: 0.7;
   }
   .cursor_section {
     display: grid;
@@ -24,18 +44,19 @@ html,
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     transition: 250ms ease-in-out;
   }
   .cursor_section div:hover {
-    border: 2px solid #000000;
+    border: 1px dashed #000000;
+    filter: invert(2);
   }
   .cursor_section div:nth-child(1) {
-    background-color: blue;
+    background-color: #f7c049;
     cursor: alias;
   }
   .cursor_section div:nth-child(2) {
-    background-color: rgb(145, 145, 242);
+    background-color: rgb(255, 22, 22);
     cursor: all-scroll;
   }
   .cursor_section div:nth-child(3) {
@@ -43,115 +64,135 @@ html,
     cursor: auto;
   }
   .cursor_section div:nth-child(4) {
-    background-color: rgb(86, 86, 168);
+    background-color: rgba(3, 172, 155, 0.807);
     cursor: cell;
   }
   .cursor_section div:nth-child(5) {
-    background-color: rgb(89, 187, 65);
+    background-color: rgb(0, 255, 98);
     cursor: col-resize;
   }
-  .cursor_section div:nth-child(5) {
-    background-color: rgb(89, 187, 65);
+  .cursor_section div:nth-child(6) {
+    background-color: #fff700;
     cursor: context-menu;
   }
-  .cursor_section div:nth-child(6) {
-    background-color: rgb(118, 102, 84);
+  .cursor_section div:nth-child(7) {
+    background-color: rgb(0, 255, 98);
     cursor: copy;
   }
-  .cursor_section div:nth-child(7) {
-    background-color: rgb(71, 170, 41);
+  .cursor_section div:nth-child(8) {
+    background-color: rgba(3, 172, 155, 0.807);
     cursor: crosshair;
   }
-  .cursor_section div:nth-child(8) {
-    background-color: rgb(250, 183, 211);
+  .cursor_section div:nth-child(9) {
+    background-color: rgb(80, 235, 255);
     cursor: default;
   }
-  .cursor_section div:nth-child(9) {
-    background-color: rgb(130, 52, 118);
+  .cursor_section div:nth-child(10) {
+    background-color: #f7c049;
     cursor: e-resize;
   }
-  .cursor_section div:nth-child(10) {
-    background-color: rgba(55, 216, 200, 0.807);
+  .cursor_section div:nth-child(11) {
+    background-color: rgba(3, 172, 155, 0.807);
     cursor: ew-resize;
   }
-  .cursor_section div:nth-child(11) {
-    background-color: rgb(214, 214, 244);
+  .cursor_section div:nth-child(12) {
+    background-color: rgb(0, 255, 98);
     cursor: grab;
   }
-  .cursor_section div:nth-child(12) {
-    background-color: rgb(175, 90, 124);
+  .cursor_section div:nth-child(13) {
+    background-color: #f7c049;
     cursor: grabbing;
   }
-  .cursor_section div:nth-child(13) {
-    background-color: rgb(83, 83, 93);
+  .cursor_section div:nth-child(14) {
+    background-color: rgb(255, 22, 22);
     cursor: help;
   }
-  .cursor_section div:nth-child(14) {
-    background-color: rgb(104, 123, 147);
+  .cursor_section div:nth-child(15) {
+    background-color: #fff700;
     cursor: move;
   }
-  .cursor_section div:nth-child(15) {
-    background-color: rgb(86, 141, 152);
+  .cursor_section div:nth-child(16) {
+    background-color: rgba(3, 172, 155, 0.807);
     cursor: n-resize;
   }
-  .cursor_section div:nth-child(16) {
-    background-color: rgba(40, 112, 42, 0.781);
+  .cursor_section div:nth-child(17) {
+    background-color: #fff700;
     cursor: ne-resize;
   }
-  .cursor_section div:nth-child(17) {
-    background-color: rgb(216, 187, 140);
+  .cursor_section div:nth-child(18) {
+    background-color: rgba(3, 172, 155, 0.807);
     cursor: nesw-resize;
   }
-  .cursor_section div:nth-child(18) {
-    background-color: rgb(244, 222, 83);
+  .cursor_section div:nth-child(19) {
+    background-color: rgb(255, 255, 255);
     cursor: no-drop;
   }
-  .cursor_section div:nth-child(19) {
-    background-color: rgb(60, 178, 201);
+  .cursor_section div:nth-child(20) {
+    background-color: rgb(0, 255, 98);
     cursor: none;
   }
-  .cursor_section div:nth-child(20) {
-    background-color: rgb(14, 148, 137);
+  .cursor_section div:nth-child(21) {
+    background-color: #f7c049;
     cursor: not-allowed;
   }
-  .cursor_section div:nth-child(21) {
-    background-color: rgb(26, 255, 0);
+  .cursor_section div:nth-child(22) {
+    background-color: rgb(0, 255, 98);
     cursor: ns-resize;
   }
-  .cursor_section div:nth-child(22) {
-    background-color: rgb(6, 205, 172);
+  .cursor_section div:nth-child(23) {
+    background-color: rgba(3, 172, 155, 0.807);
     cursor: nw-resize;
   }
-  .cursor_section div:nth-child(23) {
-    background-color: rgb(176, 15, 112);
+  .cursor_section div:nth-child(24) {
+    background-color: rgb(255, 255, 255);
     cursor: nwse-resize;
   }
-  .cursor_section div:nth-child(24) {
-    background-color: rgb(20, 208, 236);
+  .cursor_section div:nth-child(25) {
+    background-color: rgb(0, 255, 98);
     cursor: pointer;
   }
-  .cursor_section div:nth-child(25) {
-    background-color: rgb(81, 209, 61);
+  .cursor_section div:nth-child(26) {
+    background-color: rgb(255, 22, 22);
     cursor: progress;
   }
-  .cursor_section div:nth-child(26) {
-    background-color: rgb(185, 129, 25);
+  .cursor_section div:nth-child(27) {
+    background-color: rgb(80, 235, 255);
     cursor: row-resize;
   }
-  .cursor_section div:nth-child(27) {
-    background-color: rgb(237, 126, 79);
+  .cursor_section div:nth-child(28) {
+    background-color: rgb(255, 255, 255);
     cursor: s-resize;
   }
-  .cursor_section div:nth-child(28) {
-    background-color: rgb(160, 20, 72);
+  .cursor_section div:nth-child(29) {
+    background-color: rgb(80, 235, 255);
     cursor: se-resize;
   }
-  .cursor_section div:nth-child(29) {
-    background-color: rgb(127, 127, 250);
+  .cursor_section div:nth-child(30) {
+    background-color: #fff700;
     cursor: sw-resize;
   }
-  .cursor_section div:nth-child(30) {
-    background-color: blue;
+  .cursor_section div:nth-child(31) {
+    background-color: rgba(3, 172, 155, 0.807);
     cursor: text;
+  }
+  .cursor_section div:nth-child(32) {
+    background-color: #fff700;
+    cursor: vertical-text;
+  }
+  .cursor_section div:nth-child(33) {
+    background-color: rgb(0, 255, 98);
+    cursor: w-resize;
+  }
+  .cursor_section div:nth-child(34) {
+    background-color: #f7c049;
+    cursor: wait;
+  }
+  .cursor_section div:nth-child(35) {
+    background-color: rgb(255, 22, 22);
+    cursor: zoom-in;
+  }
+  .cursor_section div:nth-child(36) {
+    background-color: rgb(0, 255, 98);
+    cursor: zoom-out;
   }
 }/*# sourceMappingURL=cursor.css.map */
