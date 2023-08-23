@@ -1,0 +1,193 @@
+*,
+html,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Zilla Slab", serif;
+}
+
+@import "./colors";
+
+@media (min-width: 0) {
+  nav {
+    background-color: $dark;
+    color: $light;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .cursor_section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    div {
+      height: 20vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid transparent;
+      transition: 250ms ease-in-out;
+
+      &:hover {
+        border: 2px solid $dark;
+      }
+
+      &:nth-child(1) {
+        background-color: $clr-1;
+        cursor: alias;
+      }
+
+      &:nth-child(2) {
+        background-color: $clr-2;
+        cursor: all-scroll;
+      }
+
+      &:nth-child(3) {
+        background-color: $clr-3;
+        cursor: auto;
+      }
+
+      &:nth-child(4) {
+        background-color: $clr-4;
+        cursor: cell;
+      }
+
+      &:nth-child(5) {
+        background-color: $clr-5;
+        cursor: col-resize;
+      }
+
+      &:nth-child(5) {
+        background-color: $clr-5;
+        cursor: context-menu;
+      }
+
+      &:nth-child(6) {
+        background-color: $clr-6;
+        cursor: copy;
+      }
+
+      &:nth-child(7) {
+        background-color: $clr-7;
+        cursor: crosshair;
+      }
+
+      &:nth-child(8) {
+        background-color: $clr-8;
+        cursor: default;
+      }
+
+      &:nth-child(9) {
+        background-color: $clr-9;
+        cursor: e-resize;
+      }
+
+      &:nth-child(10) {
+        background-color: $clr-10;
+        cursor: ew-resize;
+      }
+
+      &:nth-child(11) {
+        background-color: $clr-11;
+        cursor: grab;
+      }
+
+      &:nth-child(12) {
+        background-color: $clr-12;
+        cursor: grabbing;
+      }
+
+      &:nth-child(13) {
+        background-color: $clr-13;
+        cursor: help;
+      }
+
+      &:nth-child(14) {
+        background-color: $clr-14;
+        cursor: move;
+      }
+
+      &:nth-child(15) {
+        background-color: $clr-15;
+        cursor: n-resize;
+      }
+
+      &:nth-child(16) {
+        background-color: $clr-16;
+        cursor: ne-resize;
+      }
+
+      &:nth-child(17) {
+        background-color: $clr-17;
+        cursor: nesw-resize;
+      }
+
+      &:nth-child(18) {
+        background-color: $clr-18;
+        cursor: no-drop;
+      }
+
+      &:nth-child(19) {
+        background-color: $clr-19;
+        cursor: none;
+      }
+
+      &:nth-child(20) {
+        background-color: $clr-20;
+        cursor: not-allowed;
+      }
+
+      &:nth-child(21) {
+        background-color: $clr-21;
+        cursor: ns-resize;
+      }
+
+      &:nth-child(22) {
+        background-color: $clr-22;
+        cursor: nw-resize;
+      }
+
+      &:nth-child(23) {
+        background-color: $clr-23;
+        cursor: nwse-resize;
+      }
+
+      &:nth-child(24) {
+        background-color: $clr-24;
+        cursor: pointer;
+      }
+
+      &:nth-child(25) {
+        background-color: $clr-25;
+        cursor: progress;
+      }
+
+      &:nth-child(26) {
+        background-color: $clr-26;
+        cursor: row-resize;
+      }
+
+      &:nth-child(27) {
+        background-color: $clr-27;
+        cursor: s-resize;
+      }
+
+      &:nth-child(28) {
+        background-color: $clr-28;
+        cursor: se-resize;
+      }
+
+      &:nth-child(29) {
+        background-color: $clr-29;
+        cursor: sw-resize;
+      }
+
+      &:nth-child(30) {
+        background-color: $clr-30;
+        cursor: text;
+      }
+    }
+  }
+}

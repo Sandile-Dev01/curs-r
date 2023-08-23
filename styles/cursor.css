@@ -1,0 +1,157 @@
+*,
+html,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Zilla Slab", serif;
+}
+
+@media (min-width: 0) {
+  nav {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+  }
+  .cursor_section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  .cursor_section div {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    transition: 250ms ease-in-out;
+  }
+  .cursor_section div:hover {
+    border: 2px solid #000000;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(2) {
+    background-color: rgb(145, 145, 242);
+    cursor: all-scroll;
+  }
+  .cursor_section div:nth-child(3) {
+    background-color: rgb(0, 255, 98);
+    cursor: auto;
+  }
+  .cursor_section div:nth-child(4) {
+    background-color: rgb(86, 86, 168);
+    cursor: cell;
+  }
+  .cursor_section div:nth-child(5) {
+    background-color: rgb(89, 187, 65);
+    cursor: col-resize;
+  }
+  .cursor_section div:nth-child(5) {
+    background-color: rgb(89, 187, 65);
+    cursor: context-menu;
+  }
+  .cursor_section div:nth-child(6) {
+    background-color: rgb(118, 102, 84);
+    cursor: copy;
+  }
+  .cursor_section div:nth-child(7) {
+    background-color: rgb(71, 170, 41);
+    cursor: crosshair;
+  }
+  .cursor_section div:nth-child(8) {
+    background-color: rgb(250, 183, 211);
+    cursor: default;
+  }
+  .cursor_section div:nth-child(9) {
+    background-color: rgb(130, 52, 118);
+    cursor: e-resize;
+  }
+  .cursor_section div:nth-child(10) {
+    background-color: rgba(55, 216, 200, 0.807);
+    cursor: ew-resize;
+  }
+  .cursor_section div:nth-child(11) {
+    background-color: rgb(214, 214, 244);
+    cursor: grab;
+  }
+  .cursor_section div:nth-child(12) {
+    background-color: rgb(175, 90, 124);
+    cursor: grabbing;
+  }
+  .cursor_section div:nth-child(13) {
+    background-color: rgb(83, 83, 93);
+    cursor: help;
+  }
+  .cursor_section div:nth-child(14) {
+    background-color: rgb(104, 123, 147);
+    cursor: move;
+  }
+  .cursor_section div:nth-child(15) {
+    background-color: rgb(86, 141, 152);
+    cursor: n-resize;
+  }
+  .cursor_section div:nth-child(16) {
+    background-color: rgba(40, 112, 42, 0.781);
+    cursor: ne-resize;
+  }
+  .cursor_section div:nth-child(17) {
+    background-color: rgb(216, 187, 140);
+    cursor: nesw-resize;
+  }
+  .cursor_section div:nth-child(18) {
+    background-color: rgb(244, 222, 83);
+    cursor: no-drop;
+  }
+  .cursor_section div:nth-child(19) {
+    background-color: rgb(60, 178, 201);
+    cursor: none;
+  }
+  .cursor_section div:nth-child(20) {
+    background-color: rgb(14, 148, 137);
+    cursor: not-allowed;
+  }
+  .cursor_section div:nth-child(21) {
+    background-color: rgb(26, 255, 0);
+    cursor: ns-resize;
+  }
+  .cursor_section div:nth-child(22) {
+    background-color: rgb(6, 205, 172);
+    cursor: nw-resize;
+  }
+  .cursor_section div:nth-child(23) {
+    background-color: rgb(176, 15, 112);
+    cursor: nwse-resize;
+  }
+  .cursor_section div:nth-child(24) {
+    background-color: rgb(20, 208, 236);
+    cursor: pointer;
+  }
+  .cursor_section div:nth-child(25) {
+    background-color: rgb(81, 209, 61);
+    cursor: progress;
+  }
+  .cursor_section div:nth-child(26) {
+    background-color: rgb(185, 129, 25);
+    cursor: row-resize;
+  }
+  .cursor_section div:nth-child(27) {
+    background-color: rgb(237, 126, 79);
+    cursor: s-resize;
+  }
+  .cursor_section div:nth-child(28) {
+    background-color: rgb(160, 20, 72);
+    cursor: se-resize;
+  }
+  .cursor_section div:nth-child(29) {
+    background-color: rgb(127, 127, 250);
+    cursor: sw-resize;
+  }
+  .cursor_section div:nth-child(30) {
+    background-color: blue;
+    cursor: text;
+  }
+}/*# sourceMappingURL=cursor.css.map */
