@@ -1,0 +1,145 @@
+*,
+html,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 0) {
+  nav {
+    background-color: red;
+  }
+  .cursor_section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  .cursor_section div {
+    height: 10vh;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+  .cursor_section div:nth-child(1) {
+    background-color: blue;
+    cursor: alias;
+  }
+}/*# sourceMappingURL=cursor.css.map */
